@@ -1,0 +1,5 @@
+Collecting opencv-contrib-python
+  Downloading opencv_contrib_python-4.8.0.74-cp37-abi3-win_amd64.whl (44.8 MB)
+Requirement already satisfied: numpy>=1.19.3 in e:\work\wav2lip\dev\venv\lib\site-packages (from opencv-contrib-python) (1.24.4)
+Installing collected packages: opencv-contrib-python
+Successfully installed opencv-contrib-python-4.8.0.74
