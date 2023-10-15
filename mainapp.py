@@ -18,15 +18,6 @@ def convert(segment_length, video, audio):
     return audio
 
 def get_result(input_video, in_image):
-    # if input_image == None:
-    #     print('12')
-    #     result = inference_main(input_video)
-    # if input_video == None:
-    #     print(input_image)
-    #     print('111111111111111111')
-    #     result = inference_main(input_image)
-    #     # result = "123"
-    # cv2.imwrite('123.jpg', in_image)
     if input_video:
         result = inference_main(input_video)
     elif input_video == None:
